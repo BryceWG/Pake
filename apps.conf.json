@@ -1,76 +1,64 @@
 {
   "apps": [
     {
-      "name": "programmusic",
-      "title": "ProgramMusic",
-      "name_zh": "ProgramMusic",
-      "url": "https://musicforprogramming.net/"
+      "name": "felo",
+      "title": "FeloSearch",
+      "name_zh": "Felo搜索",
+      "url": "https://felo.ai/search"
     },
     {
-      "name": "twitter",
-      "title": "Twitter",
-      "name_zh": "推特",
-      "url": "https://twitter.com/"
+      "name": "applemusic",
+      "title": "AppleMusic",
+      "name_zh": "AppleMusic",
+      "url": "https://music.apple.com/"
     },
     {
-      "name": "youtube",
-      "title": "YouTube",
-      "name_zh": "YouTube",
-      "url": "https://www.youtube.com"
+      "name": "dify",
+      "title": "Dify",
+      "name_zh": "Dify",
+      "url": "https://dify.brycewg.fun"
     },
     {
-      "name": "coderunner",
-      "title": "CodeRunner",
-      "name_zh": "CodeRunner",
-      "url": "https://riju.codes/"
+      "name": "aihelper",
+      "title": "AIHelper",
+      "name_zh": "多功能AI助手",
+      "url": "https://dify.brycewg.fun/chat/2DuukM4K85Bkxh4N"
     },
     {
-      "name": "chatgpt",
-      "title": "ChatGPT",
-      "name_zh": "ChatGPT",
-      "url": "https://chat.openai.com/chat"
+      "name": "doubao",
+      "title": "Doubao",
+      "name_zh": "豆包",
+      "url": "https://www.doubao.com/chat/"
     },
     {
-      "name": "flomo",
-      "title": "Flomo",
-      "name_zh": "浮墨",
-      "url": "https://v.flomoapp.com/mine"
+      "name": "memos",
+      "title": "Memos",
+      "name_zh": "Memos笔记",
+      "url": "https://memos.brycewg.fun/"
     },
     {
-      "name": "qwerty",
-      "title": "Qwerty",
-      "name_zh": "Qwerty",
-      "url": "https://qwerty.kaiyi.cool/"
+      "name": "lobechat",
+      "title": "Lobechat",
+      "name_zh": "Lobechat",
+      "url": "https://lobechat.brycewg.fun/"
     },
     {
-      "name": "lizhi",
-      "title": "LiZhi",
-      "name_zh": "李志",
-      "url": "https://lizhi.turkyden.com/?from=pake"
+      "name": "notion",
+      "title": "Notion",
+      "name_zh": "Notion",
+      "url": "https://www.notion.so/"
     },
     {
-      "name": "xiaohongshu",
-      "title": "XiaoHongShu",
-      "name_zh": "小红书",
-      "url": "https://www.xiaohongshu.com/explore"
+      "name": "flymelink",
+      "title": "FlymeLink",
+      "name_zh": "Flyme跨屏互联",
+      "url": "https://linkpc.flyme.com/
     },
     {
-      "name": "poe",
-      "title": "Poe",
-      "name_zh": "Poe",
-      "url": "https://poe.com/"
-    },
-    {
-      "name": "youtubemusic",
-      "title": "YouTubeMusic",
-      "name_zh": "YouTubeMusic",
-      "url": "https://music.youtube.com/"
-    },
-    {
-      "name": "weread",
-      "title": "WeRead",
-      "name_zh": "微信阅读",
-      "url": "https://weread.qq.com/"
+      "name": "xinzhi",
+      "title": "XinZhi",
+      "name_zh": "新枝",
+      "url": "https://www.xinzhi.zone/reading/storage-box"
     }
   ]
 }
