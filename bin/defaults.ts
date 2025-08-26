@@ -2,8 +2,8 @@ import { PakeCliOptions } from './types.js';
 
 export const DEFAULT_PAKE_OPTIONS: PakeCliOptions = {
   icon: '',
-  height: 780,
-  width: 1200,
+  height: 1080,
+  width: 1920,
   fullscreen: false,
   resizable: true,
   hideTitleBar: false,

@@ -242,8 +242,8 @@ const { execSync } = require('child_process');
 process.env.URL = 'https://github.com';
 process.env.NAME = 'github';
 process.env.ICON = '';
-process.env.HEIGHT = '780';
-process.env.WIDTH = '1200';
+process.env.HEIGHT = '1080';
+process.env.WIDTH = '1920';
 process.env.HIDE_TITLE_BAR = 'false';
 process.env.FULLSCREEN = 'false';
 process.env.MULTI_ARCH = 'false';
@@ -256,8 +256,8 @@ console.log('NAME:', process.env.NAME);
 // Test that environment variables are properly passed
 const success = process.env.URL === 'https://github.com' &&
                 process.env.NAME === 'github' &&
-                process.env.HEIGHT === '780' &&
-                process.env.WIDTH === '1200';
+                process.env.HEIGHT === '1080' &&
+                process.env.WIDTH === '1920';
 
 process.exit(success ? 0 : 1);
       `;
@@ -662,8 +662,8 @@ const configs = [
   {
     url: 'https://github.com',
     name: 'github',
-    width: 1200,
-    height: 780,
+    width: 1920,
+    height: 1080,
     valid: true
   },
   {
@@ -726,8 +726,8 @@ const path = require('path');
 process.env.URL = 'https://github.com';
 process.env.NAME = 'github';
 process.env.ICON = '';
-process.env.HEIGHT = '780';
-process.env.WIDTH = '1200';
+process.env.HEIGHT = '1080';
+process.env.WIDTH = '1920';
 process.env.HIDE_TITLE_BAR = 'false';
 process.env.FULLSCREEN = 'false';
 process.env.MULTI_ARCH = 'false';
@@ -758,8 +758,8 @@ console.log('Build command:', command);
 const validBuild =
   process.env.URL === 'https://github.com' &&
   process.env.NAME === 'github' &&
-  process.env.WIDTH === '1200' &&
-  process.env.HEIGHT === '780';
+  process.env.WIDTH === '1920' &&
+  process.env.HEIGHT === '1080';
 
 console.log('Build configuration valid:', validBuild);
 process.exit(validBuild ? 0 : 1);
@@ -816,8 +816,8 @@ const env = {
   URL: 'https://github.com',
   NAME: 'github',
   ICON: '',
-  HEIGHT: '780',
-  WIDTH: '1200',
+  HEIGHT: '1080',
+  WIDTH: '1920',
   HIDE_TITLE_BAR: 'false',
   FULLSCREEN: 'false',
   MULTI_ARCH: 'false',
@@ -828,8 +828,8 @@ const env = {
 const validParams =
   env.URL === 'https://github.com' &&
   env.NAME === 'github' &&
-  env.WIDTH === '1200' &&
-  env.HEIGHT === '780';
+  env.WIDTH === '1920' &&
+  env.HEIGHT === '100';
 
 console.log('GitHub.com build parameters validated:', validParams);
 console.log('URL:', env.URL);

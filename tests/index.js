@@ -385,8 +385,8 @@ class PakeTestRunner {
         const testConfig = {
           url: "https://github.com",
           name: "github",
-          width: 1200,
-          height: 780,
+          width: 1920,
+          height: 1080,
         };
 
         return validateConfig(testConfig);
@@ -403,7 +403,7 @@ class PakeTestRunner {
       async () => {
         return new Promise((resolve, reject) => {
           const testName = "GitHubApp";
-          const command = `node "${config.CLI_PATH}" "https://github.com" --name "${testName}" --debug --width 1200 --height 780`;
+          const command = `node "${config.CLI_PATH}" "https://github.com" --name "${testName}" --debug --width 1920 --height 1080`;
 
           const child = spawn(command, {
             shell: true,
@@ -508,7 +508,7 @@ class PakeTestRunner {
 
         return new Promise((resolve, reject) => {
           const testName = "GitHubConfigTest";
-          const command = `node "${config.CLI_PATH}" "https://github.com" --name "${testName}" --debug --width 1200 --height 780`;
+          const command = `node "${config.CLI_PATH}" "https://github.com" --name "${testName}" --debug --width 1920 --height 1080`;
 
           const child = spawn(command, {
             shell: true,

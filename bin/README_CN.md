@@ -91,7 +91,7 @@ pake [url] [options]
 
 #### [height]
 
-设置应用窗口的高度，默认为 `780px`。
+设置应用窗口的高度，默认为 `1080px`。
 
 ```shell
 --height <number>
@@ -99,7 +99,7 @@ pake [url] [options]
 
 #### [width]
 
-设置应用窗口的宽度，默认为 `1200px`。
+设置应用窗口的宽度，默认为 `1920px`。
 
 ```shell
 --width <number>

@@ -90,7 +90,7 @@ Specify the application icon. Supports both local and remote files. By default, 
 
 #### [height]
 
-Set the height of the application window. Default is `780px`.
+Set the height of the application window. Default is `1080px`.
 
 ```shell
 --height <number>
@@ -98,7 +98,7 @@ Set the height of the application window. Default is `780px`.
 
 #### [width]
 
-Set the width of the application window. Default is `1200px`.
+Set the width of the application window. Default is `1920px`.
 
 ```shell
 --width <number>

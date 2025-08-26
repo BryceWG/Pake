@@ -23,11 +23,11 @@ on:
       width:
         description: "Width, Optional"
         required: false
-        default: "1200"
+        default: "1920"
       height:
         description: "Height, Optional"
         required: false
-        default: "780"
+        default: "1080"
       fullscreen:
         description: "Fullscreen, At startup, Optional"
         required: false
