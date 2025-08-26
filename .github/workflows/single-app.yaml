@@ -103,6 +103,8 @@ jobs:
           TITLE: ${{ inputs.title }}
           NAME_ZH: ${{ inputs.name_zh }}
           URL: ${{ inputs.url }}
+          WIDTH: 1920
+          HEIGHT: 1080
         run: |
           npm ci
           npm run build:config

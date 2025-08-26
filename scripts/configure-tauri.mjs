@@ -101,6 +101,10 @@ Type=Application
 function updateBaseConfigs() {
   // Update pake.json
   pakeJson.windows[0].url = process.env.URL;
+  
+  // Set window size (use env vars or default to 1920x1080)
+  pakeJson.windows[0].width = process.env.WIDTH ? parseInt(process.env.WIDTH) : 1920;
+  pakeJson.windows[0].height = process.env.HEIGHT ? parseInt(process.env.HEIGHT) : 1080;
 
   // Update system tray icon path in pake.json
   if (pakeJson.system_tray_path) {
